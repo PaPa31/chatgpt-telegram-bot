@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/chatgpt-telegram-bot:latest
+  IMAGE_NAME: ${{ github.actor }}/chatgpt-telegram-bot:release
 
 jobs:
   build-and-push-image:
